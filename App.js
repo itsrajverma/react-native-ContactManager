@@ -11,8 +11,6 @@ import AddContactScreen from "./screens/AddContactScreen";
 
 const Stack = createStackNavigator();
 
-
-
 const App = () => {
   return(
       <NavigationContainer>

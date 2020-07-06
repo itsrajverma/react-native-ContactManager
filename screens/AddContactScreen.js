@@ -12,6 +12,7 @@ export default function AddContactScreen({ navigation }) {
     const [ address,setAddress ] = useState('');
 
 
+
     const saveContact = async () =>{
         if(fname!=="" && lname!== "" && phone!== "" && email!=="" && address!== ""){
             let contact = {
