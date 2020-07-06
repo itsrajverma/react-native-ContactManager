@@ -64,8 +64,6 @@ export default function EditContactScreen({ navigation,route }) {
     };
 
 
-
-
     useEffect(()=>{
         navigation.addListener('focus', () => {
             const { id } = route.params;
